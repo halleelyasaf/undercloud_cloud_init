@@ -1,0 +1,12 @@
+version: 2
+ethernets:
+  eth0:
+    dhcp4: false
+    addresses:
+      - {{ ip_addresse }}/{{ prefix }}
+    gateway4: {{ gw }}
+    nameservers:
+      addresses: [{{ dns }}]
+
+
+

@@ -1,0 +1,7 @@
+ip_addresse: 192.168.12.31
+prefix: 25
+gw: 192.168.12.1
+dns: 8.8.8.8
+server_name: undercloud
+username: root
+password: redhat
