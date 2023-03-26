@@ -1,3 +1,7 @@
+template_file:
+  - meta-data
+  - network-config 
+  - user-data 
 ip_addresse: 192.168.12.31
 prefix: 25
 gw: 192.168.12.1

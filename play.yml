@@ -1,0 +1,6 @@
+---
+- hosts: localhost
+  vars: {}
+  roles:
+    - role: undercloud_cloud_init
+  tasks: []

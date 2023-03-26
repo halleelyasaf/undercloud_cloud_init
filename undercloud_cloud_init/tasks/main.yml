@@ -1,0 +1,6 @@
+---
+- name: Create kustomization.yaml template
+  ansible.builtin.template:
+     src: "{{ item }}.j2"
+     dest: "{{ item }}"
+  with_items: "{{ template_file }}"
